@@ -1,3 +1,4 @@
+from fastapi.middleware.cors import CORSMiddleware
 from fastapi import FastAPI
 from sqlalchemy.orm import Session
 from app.db import engine, SessionLocal
@@ -8,6 +9,13 @@ from app.api.endpoints.schools import router as schools_router
 from app.api.endpoints.professors import router as professors_router
 
 app = FastAPI(title="RMP-Style API", version="0.1.0")
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["http://localhost:3000","http://127.0.0.1:3000"],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
 @app.get("/health")
 def health():
