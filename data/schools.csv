@@ -1,0 +1,11 @@
+id,Type,College Name,"City, State",Tuition & Fees (approx.)
+1,Public,Georgia Institute of Technology,"Atlanta, Georgia","$11,764 (in-state), $32,876 (out-of-state)"
+2,Public,Georgia State University,"Atlanta, Georgia","$9,286 (in-state), $24,517 (out-of-state)"
+3,Public,"University of California, Berkeley","Berkeley, California","$15,444 (in-state), $48,156 (out-of-state)"
+4,Public,University of Michigan,"Ann Arbor, Michigan","$17,786 (in-state), $57,273 (out-of-state)"
+5,Public,University of Virginia,"Charlottesville, Virginia","$23,870 (in-state), $59,960 (out-of-state)"
+6,Private,Harvard University,"Cambridge, Massachusetts","$57,246"
+7,Private,Stanford University,"Stanford, California","$58,416"
+8,Private,Massachusetts Institute of Technology (MIT),"Cambridge, Massachusetts","$57,986"
+9,Private,Yale University,"New Haven, Connecticut","$64,700"
+10,Private,Princeton University,"Princeton, New Jersey","$59,710"

@@ -1,4 +1,6 @@
-#!/Users/narindibagyasri/Downloads/rmp_backend_update3/.venv/bin/python
+#!/bin/sh
+'''exec' "/Users/narindibagyasri/Downloads/Rate My Professor/.venv/bin/python3.13" "$0" "$@"
+' '''
 # -*- coding: utf-8 -*-
 import re
 import sys

@@ -7,6 +7,7 @@ from app.models.models import School, Department
 from app.api.endpoints.auth import router as auth_router
 from app.api.endpoints.schools import router as schools_router
 from app.api.endpoints.professors import router as professors_router
+from app.api.endpoints.admin import router as admin_router
 
 app = FastAPI(title="RMP-Style API", version="0.1.0")
 app.add_middleware(
@@ -36,3 +37,4 @@ with SessionLocal() as db:
 app.include_router(auth_router)
 app.include_router(schools_router)
 app.include_router(professors_router)
+app.include_router(admin_router)
