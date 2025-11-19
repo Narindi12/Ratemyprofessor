@@ -1,11 +1,11 @@
-first_name,last_name,department,level,email
-Silas,Alben,Mathematics,UG & Graduate,alben@umich.edu
-Jinho,Baik,Mathematics,Graduate,baik@umich.edu
-David,Barrett,Mathematics,UG & Graduate,barrettd@umich.edu
-Alexander,Barvinok,Mathematics,UG & Graduate,barvinok@umich.edu
-Joshua,Ackerman,Psychology,UG & Graduate,joshack@umich.edu
-Omar,Ahmed,Psychology,UG & Graduate,omarah@umich.edu
-Ashley,Gearhardt,Psychology,UG & Graduate,agearhar@umich.edu
-Kerby,Shedden,Statistics,Graduate,kshedden@umich.edu
-Edward,Ionides,Statistics,Undergraduate,ionides@umich.edu
-Liza,Levina,Statistics,UG & Graduate,levina@umich.edu
+school_id,first_name,last_name,department,level,email,bio,rating
+8,Silas,Alben,Systems and Information Engineering,UG & Graduate,alben@umich.edu,Assistant Professor,4
+8,Jinho,Baik,Systems and Information Engineering,Graduate,baik@umich.edu,Associate Professor,2
+8,David,Barrett,Systems and Information Engineerings,UG & Graduate,barrettd@umich.edu,Assistant Professor,5
+8,Alexander,Barvinok,Computer Science,UG & Graduate,barvinok@umich.edu,Professor of Computer Science,3
+8,Joshua,Ackerman,Computer Science,UG & Graduate,joshack@umich.edu,Professor of Computer Science,5
+8,Omar,Ahmed,Computer Sciencey,UG & Graduate,omarah@umich.edu,Professor of Computer Science,2
+8,Ashley,Gearhardt,Data Science,UG & Graduate,agearhar@umich.edu,Professor of Data Science,4
+8,Kerby,Shedden,Data Science,Graduate,kshedden@umich.edu,Professor of Data Science,3
+8,Edward,Ionides,Data Science,Undergraduate,ionides@umich.edu,Professor of Data Science,4
+8,Liza,Levina,Machine Learning,UG & Graduate,levina@umich.edu,Professor and Chair,5

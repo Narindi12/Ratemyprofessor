@@ -1,11 +1,11 @@
-first_name,last_name,department,level,email
-David,Green,Computer Science,UG & Graduate,Not Publicly Listed
-Jack,Davidson,Computer Science,UG & Graduate,Not Publicly Listed
-Mary Lou,Soffa,Computer Science,Graduate,Not Publicly Listed
-Laura,Barnes,Systems and Information Engineering,UG & Graduate,Not Publicly Listed
-Mitch,Roslin,Biomedical Engineering,UG & Graduate,Not Publicly Listed
-Jesse,Tatum,Mechanical and Aerospace Engineering,UG & Graduate,Not Publicly Listed
-Robert,Elliott,Electrical and Computer Engineering,UG & Graduate,Not Publicly Listed
-John,Porter,Biology,UG & Graduate,Not Publicly Listed
-Eileen,Klein,Psychology,UG & Graduate,Not Publicly Listed
-Michael,Smith,Economics,UG & Graduate,Not Publicly Listed
+school_id,first_name,last_name,department,level,email,bio,rating
+9,David,Green,Computer Science,UG & Graduate,dgreen@virginia.edu,Professor of Computer Science,2
+9,Jack,Davidson,Computer Science,UG & Graduate,jdavidson@virginia.edu,Professor of Computer Science,4
+9,Mary Lou,Soffa,Computer Science,Graduate,msoffa@virginia.edu,Professor of Computer Science,3
+9,Laura,Barnes,Systems and Information Engineering,UG & Graduate,lbarnes@virginia.edu,Professor and Chair,5
+9,Mitch,Roslin,Data science,UG & Graduate,mroslin@virginia.edu,Professor of Data Science,4
+9,Jesse,Tatum,Data Science,UG & Graduate,jtatum@virginia.edu,Professor of Data Science,3
+9,Robert,Elliott,Data Science,UG & Graduate,relliott@virginia.edu,Professor of Data Science,4
+9,John,Porter,Data Science,UG & Graduate,jporter@virginia.edu,Professor of Data Science,2
+9,Eileen,Klein,Systems and Information Engineering,UG & Graduate,eklein@virginia.edu,Assistant Professor,5
+9,Michael,Smith,Systems and Information Engineering,UG & Graduate,msmith@virginia.edu,Assistant Professor,3

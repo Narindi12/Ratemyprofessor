@@ -1,11 +1,11 @@
-first_name,last_name,department,level,email
-Boaz,Barak,Computer Science (SEAS),UG & Graduate,boaz@seas.harvard.edu
-Michael,Mitzenmacher,Computer Science (SEAS),UG & Graduate,michaelm@eecs.harvard.edu
-David C.,Parkes,Computer Science (SEAS),UG & Graduate,parkes@eecs.harvard.edu
-Salil,Vadhan,Computer Science (SEAS),UG & Graduate,salil@seas.harvard.edu
-Joseph K.,Blitzstein,Statistics (FAS),Undergraduate,blitz@fas.harvard.edu
-Morgane,Austern,Statistics (FAS),UG & Graduate,maustern@fas.harvard.edu
-Pragya,Sur,Statistics (FAS),UG & Graduate,pragya@fas.harvard.edu
-N. Gregory,Mankiw,Economics (FAS),UG & Graduate,ngmankiw@harvard.edu
-Lene V.,Hau,Physics & Applied Physics (SEAS/FAS),UG & Graduate,hau@fas.harvard.edu
-Subir,Sachdev,Physics (FAS),UG & Graduate,sachdev@g.harvard.edu
+school_id,first_name,last_name,department,level,email,bio,rating
+3,Boaz,Barak,Computer Science,UG & Graduate,boaz@seas.harvard.edu,professor of Computer Science,5
+3,Michael,Mitzenmacher,Computer Science,UG & Graduate,michaelm@eecs.harvard.edu,professor of Computer Science,4
+3,David C.,Parkes,Computer Science,UG & Graduate,parkes@eecs.harvard.edu,professor of Computer Science,3
+3,Salil,Vadhan,Computer Science,UG & Graduate,salil@seas.harvard.edu,professor of Computer Science,2
+3,Joseph K.,Blitzstein,Systems and Information Engineering,Undergraduate,blitz@fas.harvard.edu,Senior Director of Education and Director of Undergraduate Studies,3
+3,Morgane,Austern,Systems and Information Engineering,UG & Graduate,maustern@fas.harvard.edu,Assistant Professor,4
+3,Pragya,Sur,Systems and Information Engineering,UG & Graduate,pragya@fas.harvard.edu,Assistant Professor,5
+3,N. Gregory,Mankiw,Data Science,UG & Graduate,ngmankiw@harvard.edu,Professor of Data Science,2
+3,Lene V.,Hau,Data Science,UG & Graduate,hau@fas.harvard.edu,Professor of Data Science,3
+3,Subir,Sachdev,Data Science,UG & Graduate,sachdev@g.harvard.edu,Professor of Data Science,4

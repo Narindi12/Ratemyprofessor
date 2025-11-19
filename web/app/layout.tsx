@@ -12,7 +12,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <body className="min-h-screen bg-gray-50 text-gray-900">
         <div className="mx-auto max-w-6xl p-4">
           <header className="py-4 mb-6 border-b">
-            <h1 className="text-2xl font-semibold">Rate My Professor</h1> {/* ← update */}
+           <h1 className="text-xl md:text-2xl font-bold bg-gradient-to-r from-blue-700 via-indigo-600 to-cyan-600 text-transparent bg-clip-text">
+      Rate My Professor
+    </h1>
           </header>
           <Providers>{children}</Providers>
         </div>

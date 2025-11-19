@@ -1,4 +1,5 @@
-from pydantic import BaseModel, EmailStr
+from datetime import datetime
+from pydantic import BaseModel, EmailStr, conint
 from typing import Optional, List
 
 class Token(BaseModel):
@@ -29,7 +30,22 @@ class RatingOut(BaseModel):
     user_id: int
     class Config:
         from_attributes = True
+class RatingBase(BaseModel):
+    stars: conint(ge=1, le=5)
+    comment: str | None = None
 
+
+class RatingCreate(RatingBase):
+    pass
+
+
+class RatingOut(RatingBase):
+    id: int
+    professor_id: int
+    created_at: datetime
+
+    class Config:
+        orm_mode = True
 class ProfessorOut(BaseModel):
     id: int
     first_name: str

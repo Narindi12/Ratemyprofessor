@@ -65,32 +65,31 @@ def list_professors(
     page_size: int = 20,
     db: Session = Depends(get_db),
 ):
-    q = db.query(Professor).filter(Professor.school_id == school_id)
-    if level:
-        q = q.filter(Professor.level == level)
-    if department:
-        q = q.join(Department, Professor.department_id == Department.id).filter(Department.name.ilike(f"%{department}%"))
-    if search:
-        s = f"%{search}%"
-        from sqlalchemy import or_
-        q = q.filter(or_(Professor.first_name.ilike(s), Professor.last_name.ilike(s)))
-    total = q.count()
-    items = q.offset((page-1)*page_size).limit(page_size).all()
-    def dept_name(pid):
-        d = db.query(Department).get(pid)
-        return d.name if d else None
-    return {
-        "total": total,
-        "page": page,
-        "page_size": page_size,
-        "items": [
+    school = db.get(School, school_id)
+    if not school:
+        raise HTTPException(status_code=404, detail="School not found")
+
+    profs = (
+        db.query(Professor)
+        .filter(Professor.school_id == school_id)
+        .order_by(Professor.last_name.asc())
+        .all()
+    )
+
+    items = []
+    for p in profs:
+        dept = db.get(Department, p.department_id) if p.department_id else None
+        items.append(
             {
                 "id": p.id,
                 "name": f"{p.first_name} {p.last_name}",
-                "department": dept_name(p.department_id),
+                "department": dept.name if dept else None,
                 "level": p.level,
                 "email": p.email,
-                "photo_url": p.photo_url,
-            } for p in items
-        ]
-    }
+                "rating": p.rating, 
+                "bio": p.bio,         
+                "school_id": p.school_id,
+            }
+        )
+
+    return {"items": items}

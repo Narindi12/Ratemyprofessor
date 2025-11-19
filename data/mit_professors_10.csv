@@ -1,11 +1,11 @@
-first_name,last_name,department,level,email
-Daniela,Rus,Electrical Engineering & Computer Science (CSAIL),UG & Graduate,Not Publicly Listed
-Regina,Barzilay,Electrical Engineering & Computer Science (CSAIL),UG & Graduate,Not Publicly Listed
-Dina,Katabi,Electrical Engineering & Computer Science (CSAIL),UG & Graduate,Not Publicly Listed
-Erik D.,Demaine,Electrical Engineering & Computer Science (CSAIL),UG & Graduate,Not Publicly Listed
-Tim,Berners-Lee,Electrical Engineering & Computer Science (CSAIL),UG & Graduate,Not Publicly Listed
-Antonio,Torralba,Electrical Engineering & Computer Science (CSAIL),UG & Graduate,Not Publicly Listed
-Leslie Pack,Kaelbling,Electrical Engineering & Computer Science (CSAIL),UG & Graduate,Not Publicly Listed
-Russ,Tedrake,Electrical Engineering & Computer Science (CSAIL),UG & Graduate,Not Publicly Listed
-Tommi,Jaakkola,Electrical Engineering & Computer Science (CSAIL),UG & Graduate,Not Publicly Listed
-Anant,Agarwal,Electrical Engineering & Computer Science,UG & Graduate,Not Publicly Listed
+school_id,first_name,last_name,department,level,email,bio,rating
+4,Daniela,Rus,Computer Science,UG & Graduate,drus@mit.edu,Professor of computer Science,4
+4,Regina,Barzilay,Computer Science,UG & Graduate,rbarzilay@mit.edu,Professor of computer Science,5
+4,Dina,Katabi,Computer Science,UG & Graduate,dkatabi@mit.edu,Professor of computer Science,3
+4,Erik D.,Demaine,Computer Science,UG & Graduate,edemaine@mit.edu,Professor of computer Science,2
+4,Tim,Berners-Lee,Systems and Information Engineering,UG & Graduate,tberners@mit.edu,Assistant Professor,5
+4,Antonio,Torralba,Systems and Information Engineering,UG & Graduate,atorralba@mit.edu,Assistant Professor,3
+4,Leslie Pack,Kaelbling,Systems and Information Engineering,UG & Graduate,lkaelbling@mit.edu,Associate Professor,2
+4,Russ,Tedrake,Data Science,UG & Graduate,rtedrake@mit.edu,Associate Professor,4
+4,Tommi,Jaakkola,Data Science,UG & Graduate,tjaakkola@mit.edu,Professor of Data Science,2
+4,Anant,Agarwal,Data Science,UG & Graduate,aagarwal@mit.edu,Professor of Data Science,3

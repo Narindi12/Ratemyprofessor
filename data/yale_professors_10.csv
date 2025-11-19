@@ -1,11 +1,11 @@
-first_name,last_name,department,level,email
-Daniel,Abadi,Computer Science,UG & Graduate,Not Publicly Listed
-Brian,Scassellati,Computer Science / Cognitive Science,UG & Graduate,Not Publicly Listed
-Joan,Feigenbaum,Computer Science,UG & Graduate,Not Publicly Listed
-Dragomir,Radev,Computer Science / Linguistics,Graduate,Not Publicly Listed
-David,Gelernter,Computer Science,UG & Graduate,Not Publicly Listed
-Paul,Bloom,Psychology / Cognitive Science,UG & Graduate,Not Publicly Listed
-Laurie,Santos,Psychology,Undergraduate,Not Publicly Listed
-Nicholas,Christakis,Sociology / Medicine,UG & Graduate,Not Publicly Listed
-Akiko,Iwata,Economics,UG & Graduate,Not Publicly Listed
-Judith,Resnik,Law / Yale Law School,Graduate,Not Publicly Listed
+school_id,first_name,last_name,department,level,email,bio,rating
+10,Daniel,Abadi,Computer Science,UG & Graduate,dabadi@yale.edu,Professor of Computer Science,3
+10,Brian,Scassellati,Computer Science / Cognitive Science,UG & Graduate,bscassellati@yale.edu,Professor of Computer Science,4
+10,Joan,Feigenbaum,Computer Science,UG & Graduate,jfeigenbaum@yale.edu,Professor of Computer Science,5
+10,Dragomir,Radev,Computer Science / Linguistics,Graduate,dradev@yale.edu,Professor of Computer Science,4
+10,David,Gelernter,Computer Science,UG & Graduate,dgelernter@yale.edu,Professor of Computer Science and Director of Undergraduate Studies,3
+10,Paul,Bloom,Data Science,UG & Graduate,pbloom@yale.edu,Professor of Data Science,2
+10,Laurie,Santos,Data Science,Undergraduate,lsantos@yale.edu,Professor of Data Science,5
+10,Nicholas,Christakis,Data Science,UG & Graduate,nchristakis@yale.edu,Professor of Datar Science,3
+10,Akiko,Iwata,Machine Learning,UG & Graduate,aiwata@yale.edu,Assistant Professor,4
+10,Judith,Resnik,Machine Learning,Graduate,jresnik@yale.edu,Assistant Professor,2

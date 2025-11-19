@@ -1,11 +1,11 @@
-first_name,last_name,department,level,email
-Pieter,Abbeel,Electrical Engineering & Computer Sciences (EECS),UG & Graduate,pabbeel@cs.berkeley.edu
-Ahmed,Alaa,EECS – Computer Science Division,UG & Graduate,amalaa@berkeley.edu
-Eli,Yablonovitch,EECS – Computer Science Division,UG & Graduate,eliy@eecs.berkeley.edu
-Bin,Yu,Statistics / EECS,UG & Graduate,binyu@berkeley.edu
-Daniel,Fletcher,Molecular & Cell Biology,UG & Graduate,fletch@berkeley.edu
-Yvette,Fisher,Molecular & Cell Biology,UG & Graduate,yfisher@berkeley.edu
-Pheng,Cheah,Geography / Rhetoric (Dept of Geography),UG & Graduate,pcheah@berkeley.edu
-Iryna,Dronova,Landscape Architecture & Environmental Planning,UG & Graduate,idronova@berkeley.edu
-Zachary A.,Pardos,Education,UG & Graduate,pardos@berkeley.edu
-Sherry (Chiayi),Lee,Ancient Greek & Roman Studies,UG & Graduate,chiayilee@berkeley.edu
+school_id,first_name,last_name,department,level,email,bio,rating
+7,Pieter,Abbeel,Systems and Information Engineering,UG & Graduate,pabbeel@cs.berkeley.edu,Assistant Professor,4
+7,Ahmed,Alaa,Computer Science,UG & Graduate,amalaa@berkeley.edu,Professor of computer Science,3
+7,Eli,Yablonovitch,Computer Science,UG & Graduate,eliy@eecs.berkeley.edu,Professor of computer Science,2
+7,Bin,Yu,Systems and Information Engineering,UG & Graduate,binyu@berkeley.edu,Assistant Professor,5
+7,Daniel,Fletcher,Systems and Information Engineering,UG & Graduate,fletch@berkeley.edu,Associate Professor,3
+7,Yvette,Fisher,Systems and Information Engineering,UG & Graduate,yfisher@berkeley.edu,Associate Professor,4
+7,Pheng,Cheah,Computer Science,UG & Graduate,pcheah@berkeley.edu,Professor of Computer Science,2
+7,Iryna,Dronova,Data Science,UG & Graduate,idronova@berkeley.edu,Professor of Data Science,5
+7,Zachary A.,Pardos,Data Science,UG & Graduate,pardos@berkeley.edu,Professor of Data Science,3
+7,Sherry (Chiayi),Lee,Data Science,UG & Graduate,chiayilee@berkeley.edu,Professor of Data Science,4

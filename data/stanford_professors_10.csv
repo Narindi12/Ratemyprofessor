@@ -1,11 +1,11 @@
-first_name,last_name,department,level,email
-Fei-Fei,Li,Computer Science,UG & Graduate,Not Publicly Listed
-Andrew,Ng,Computer Science,Graduate,Not Publicly Listed
-Christopher,Manning,Linguistics / Computer Science,UG & Graduate,Not Publicly Listed
-Jure,Leskovec,Computer Science,UG & Graduate,Not Publicly Listed
-Eric,S. Roberts,Computer Science,Undergraduate,Not Publicly Listed
-Carla,Shatz,Biology / Neurobiology,UG & Graduate,Not Publicly Listed
-Jennifer,Widom,Computer Science / Engineering,UG & Graduate,Not Publicly Listed
-Sebastian,Thrun,Computer Science / AI Lab,Graduate,Not Publicly Listed
-Mark,Horowitz,Electrical Engineering / Computer Science,UG & Graduate,Not Publicly Listed
-Susan,Holmes,Statistics,UG & Graduate,Not Publicly Listed
+school_id,first_name,last_name,department,level,email,bio,rating
+6,ei-Fei,Li,Computer Science,UG & Graduate,fli@stanford.edu,Professor of computer Science,4
+6,Andrew,Ng,Computer Science,Graduate,ang@stanford.edu,Professor of computer Science,3
+6,Christopher,Manning,Computer Science,UG & Graduate,cmanning@stanford.edu,Professor of computer Science,5
+6,Jure,Leskovec,Computer Science,UG & Graduate,jleskovec@stanford.edu,Professor of computer Science,4
+6,Eric,S. Roberts,Computer Science,Undergraduate,eroberts@stanford.edu,Professor of computer Science,3
+6,Carla,Shatz,Systems and Information Engineering,UG & Graduate,cshatz@stanford.edu,Assistant Professor,2
+6,Jennifer,Widom,Computer Science,UG & Graduate,jwidom@stanford.edu,Associate Professor,5
+6,Sebastian,Thrun,Computer Science,Graduate,sthrun@stanford.edu,Associate Professor,4
+6,Mark,Horowitz,Computer Science,UG & Graduate,mhorowitz@stanford.edu,Professor and Chair,3
+6,Susan,Holmes,Systems and Information Engineering,UG & Graduate,sholmes@stanford.edu,Assistant Professor,2

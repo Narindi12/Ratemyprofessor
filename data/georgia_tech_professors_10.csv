@@ -1,11 +1,11 @@
-first_name,last_name,department,level,email
-Jacob,Abernethy,"School of Computer Science, College of Computing",UG & Graduate,prof@gatech.edu
-Elizabeth,Cherry,"School of Computer Science, College of Computing",UG & Graduate,echerry30@gatech.edu
-Srinivas,Aluru,"School of Computational Science & Engineering, College of Computing",UG & Graduate,aluru@cc.gatech.edu
-Irfan,Essa,"School of Interactive Computing, College of Computing",UG & Graduate,irfan@cc.gatech.edu
-Edward,Christie,"School of Computer Science, College of Computing",Graduate,echristie30@gatech.edu
-Haesun,Park,"School of Computational Science & Engineering, College of Computing",UG & Graduate,hpark@cc.gatech.edu
-Ling,Liu,"School of Computer Science, College of Computing",UG & Graduate,lingliu@cc.gatech.edu
-Yung Lin (Celine),Lin,"School of Computer Science, College of Computing",UG & Graduate,ylin715@gatech.edu
-Vijay,Ganesh,College of Computing / IDEaS,UG & Graduate,vganesh@gatech.edu
-Pan,Li,"School of Electrical & Computer Engineering, College of Engineering",UG & Graduate,pli77@gatech.edu
+school_id,first_name,last_name,department,level,email,bio,rating
+2,Jacob,Abernethy,Computer Science,UG & Graduate,prof@gatech.edu,Assistant Professor,3
+2,Elizabeth,Cherry,Computer Science,UG & Graduate,echerry30@gatech.edu,Associate Professor,5
+2,Srinivas,Aluru,Computer Science,UG & Graduate,aluru@cc.gatech.edu,Professor and Senior Associate Dean,2
+2,Irfan,Essa,Systems and Information Engineering,UG & Graduate,irfan@cc.gatech.edu,Distinguished Professor,4
+2,Edward,Christie,Computer Science,Graduate,echristie30@gatech.edu,Associate Professor and Director of Graduate Studies,2
+2,Haesun,Park,School of Computer Science,UG & Graduate,hpark@cc.gatech.edu,Professor and Chair,5
+2,Ling,Liu,Computer Science,UG & Graduate,lingliu@cc.gatech.edu,Professor of computer Science,3
+2,Yung Lin (Celine),Lin,Computer Science,UG & Graduate,ylin715@gatech.edu,Associate Professor,4
+2,Vijay,Ganesh,Systems and Information Engineering,UG & Graduate,vganesh@gatech.edu,professor of computer science,2
+2,Pan,Li,Systems and Information Engineering,UG & Graduate,pli77@gatech.edu,Assistant Professor of Information Technology,3
